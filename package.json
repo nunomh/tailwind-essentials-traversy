@@ -1,16 +1,16 @@
 {
   "name": "tailwind-essentials-traversy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Based on the youtube video Tailwind CSS Crash Course: https://www.youtube.com/watch?v=UBOj6rqRUME",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "tailwind build src/style.css -o dist/style.css"
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.4.14"
   }
 }
